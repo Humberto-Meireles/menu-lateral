@@ -16,6 +16,7 @@ nav.menu-lateral {
   height: 100%;
   background-color: #202020;
   padding: 40px 0 40px 1%;
+  box-shadow: 3px 0 0 #ff0077;
 }
 
 .btn-expandir {
