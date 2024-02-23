@@ -12,7 +12,7 @@ body {
 }
 
 nav.menu-lateral {
-  width: 300px;
+  width: 80px;
   height: 100%;
   background-color: #202020;
   padding: 40px 0 40px 1%;
@@ -21,6 +21,10 @@ nav.menu-lateral {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+nav.menu-lateral:hover {
+  width: 300px;
 }
 
 .btn-expandir {
@@ -63,4 +67,5 @@ ul li.item-menu a .txt-link {
 
 ul li.item-menu a .icon > i {
   font-size: 30px;
+  margin-left: 10px;
 }
