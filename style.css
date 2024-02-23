@@ -34,6 +34,14 @@ ul {
   list-style-type: none;
 }
 
+ul li.item-menu {
+  transition: 0.2s;
+}
+
+ul li.item-menu:hover {
+  background: #ff0077;
+}
+
 ul li.item-menu a {
   color: white;
   text-decoration: none;
